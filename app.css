@@ -1,0 +1,40 @@
+#page{
+    /* background-color: #f25ced;*/
+     text-align: center;
+  
+    background-color:#f25ced;
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+}
+button{
+    
+    background-color: hsl(91, 96%, 79%);
+    border-color: hsl(91, 94%, 59%); 
+    border-radius: 5px;
+    padding:5px;
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+button:hover{
+    background-color:hsl(91, 94%, 59%);  
+    border-color: hsl(91, 94%, 59%); 
+}
+#issues_list{
+    display: flex;
+    flex-direction: column;
+    /* list-style-type: none; */
+}
+li{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
